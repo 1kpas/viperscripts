@@ -24,3 +24,4 @@ fbq('init', '{{Facebook Pixel ID}}');
 
 //Bloqueador Compra Falsa
 //FIM
+</script>
