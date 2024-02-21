@@ -1,3 +1,4 @@
+<script>
 //Começo
 //Bloqueador Compra Falsa
 ! function(f, b, e, v, n, t, s) {
