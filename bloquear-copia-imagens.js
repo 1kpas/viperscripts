@@ -1,3 +1,4 @@
+<script>
 //Bloqueador de COpia imagens
 //Começo
 document.addEventListener('DOMContentLoaded', function() {
@@ -16,3 +17,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 //Boqueador de COpia Imagens
 //Fim
+</script>
