@@ -1,6 +1,4 @@
 <script>
-
-//Começo
 document.addEventListener('DOMContentLoaded', function() {
     // Desativar seleção de texto e arrastar em toda a página
     document.body.style.userSelect = 'none'; // Desativa a seleção de texto para a maioria dos navegadores
@@ -15,6 +13,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     console.log('Seleção de conteúdo e arrastar imagens foram desativados.');
 });
-//Boqueador de COpia Imagens
-//Fim
-</script>
+<script>

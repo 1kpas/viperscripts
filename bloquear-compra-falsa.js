@@ -1,6 +1,4 @@
 <script>
-//Começo
-//Bloqueador Compra Falsa
 ! function(f, b, e, v, n, t, s) {
     if (f.fbq) return;
     n = f.fbq = function() {
@@ -23,6 +21,4 @@
 }(window, document, 'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '{{Facebook Pixel ID}}');
 
-//Bloqueador Compra Falsa
-//FIM
 </script>

@@ -1,5 +1,4 @@
-//COMEÇO
-//Bloquear AliTools
+<script>
 console.log('Script de bloqueio de extensão carregado.');
 
 // Função para verificar a presença do conteúdo da extensão e redirecionar para uma página em branco, se detectado
@@ -36,5 +35,4 @@ function iniciarVerificacao() {
 
 // Executar a função de verificação assim que a página terminar de carregar e periodicamente depois disso
 window.addEventListener('load', iniciarVerificacao);
-//Bloquear AliTools
-//FIM
+</script>
