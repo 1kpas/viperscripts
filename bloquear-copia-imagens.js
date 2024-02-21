@@ -1,5 +1,5 @@
 <script>
-//Bloqueador de COpia imagens
+
 //Começo
 document.addEventListener('DOMContentLoaded', function() {
     // Desativar seleção de texto e arrastar em toda a página
