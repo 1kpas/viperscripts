@@ -1,11 +1,7 @@
-<script>
 document.addEventListener('DOMContentLoaded', function() {
-    // Impede o uso do botão direito do mouse na página
-    document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-        return false;
-    });
+    setInterval(function() {
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        });
+    }, 1000); // Verifica e reaplica o bloqueio a cada 1 segundo
 });
-//Botão Direito
-//Fim
-</script>
