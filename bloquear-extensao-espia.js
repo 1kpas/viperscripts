@@ -1,3 +1,4 @@
+(function() {
     // Função para verificar a presença do conteúdo da extensão e redirecionar para uma página em branco, se detectado
     function verificarConteudoExtensaoEspecifica() {
         console.log('Verificando conteúdo da extensão específica...');
@@ -19,3 +20,4 @@
         console.log('Página totalmente carregada. Executando verificação de conteúdo da extensão específica...');
         verificarConteudoExtensaoEspecifica();
     });
+})();
