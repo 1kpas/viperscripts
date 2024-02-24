@@ -1,3 +1,4 @@
+</script>
 document.addEventListener('DOMContentLoaded', () => {
     // Desabilita a seleção de texto
     document.addEventListener('mousedown', (e) => {
@@ -9,3 +10,4 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
     }, false);
 });
+</script>
