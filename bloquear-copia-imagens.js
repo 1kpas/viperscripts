@@ -1,12 +1,21 @@
-document.addEventListener('DOMContentLoaded', function() {
-    setInterval(function() {
+(function() {
+    function disableTextSelectionAndDrag() {
+        // Desabilita a seleção de texto
         document.body.style.userSelect = 'none';
         document.body.style.webkitUserSelect = 'none';
         document.body.style.MozUserSelect = 'none';
         document.body.style.msUserSelect = 'none';
 
-        document.body.addEventListener('dragstart', function(e) {
+        // Previne o arraste de elementos na página
+        document.body.addEventListener('dragstart', e => {
             e.preventDefault();
         });
-    }, 1000); // Aplica as regras de seleção e arraste a cada 1 segundo
-});
+    }
+
+    // Verifica se o DOM já está carregado
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', disableTextSelectionAndDrag);
+    } else {
+        disableTextSelectionAndDrag();
+    }
+})();
